@@ -1,0 +1,116 @@
+.footer {
+  background-color: var(--bgc-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-contacts:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress {
+  color: var(--accent-white);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  transition: color var(--transition-dur-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-blue);
+  }
+}
+
+.contacts {
+  color: var(--text-color-contacts);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  transition: color var(--transition-dur-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-blue);
+  }
+}
+
+.join {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.join-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--accent-white);
+  margin-bottom: 20px;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.mail-input-wrapper {
+  margin-left: auto;
+}
+
+.mail-input-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--accent-white);
+  margin-bottom: 20px;
+}
+
+.mail-input {
+  display: flex;
+}
+
+.mail-input-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding-left: 16px;
+  color: var(--accent-white);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--bgc-footer);
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--text-color-contacts);
+  }
+}
+
+.mail-input-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--accent-blue);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.mail-input-btn-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--accent-white);
+  padding-right: 10px;
+}
+
+.send-icon {
+  fill: var(--accent-white);
+}

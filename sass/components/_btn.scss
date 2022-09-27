@@ -1,0 +1,57 @@
+.btn {
+  color: var(--main-text-color);
+  background-color: var(--accent-white);
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  display: inline-block;
+
+  &.hero__btn {
+    color: var(--accent-white);
+    background-color: var(--accent-blue);
+    @include font(16px, 700, 30px);
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    min-width: 216px;
+    transition: color var(--transition-dur-func),
+      background-color var(--transition-dur-func);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-white);
+      background-color: var(--btn-active);
+    }
+  }
+
+  &.portfolio {
+    color: var(--main-text-color);
+    background-color: var(--bgc-team-btn-portfolio);
+    @include font(16px, 500, 26px);
+    padding: 6px 22px;
+    min-width: 73px;
+    transition: color var(--transition-dur-func),
+      background-color var(--transition-dur-func),
+      box-shadow var(--transition-dur-func);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-white);
+      background-color: var(--accent-blue);
+      box-shadow: 0px 4px 4px var(--box-shadow);
+    }
+  }
+}
+
+.flex-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.flex-button-item {
+  margin-right: 8px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
