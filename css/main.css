@@ -155,7 +155,7 @@ ul {
 .mobile-menu__close-btn-icon {
   color: var(--main-text-color);
 }
-.mobile-menu__close-btn-icon:hover, .mobile-menu__close-btn-icon:focus, .mobile-menu__close-btn-icon:active {
+.mobile-menu__close-btn:hover .mobile-menu__close-btn-icon, .mobile-menu__close-btn:focus .mobile-menu__close-btn-icon, .mobile-menu__close-btn:active .mobile-menu__close-btn-icon {
   color: var(--accent-blue);
 }
 

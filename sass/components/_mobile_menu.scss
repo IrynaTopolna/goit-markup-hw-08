@@ -41,9 +41,9 @@
 .mobile-menu__close-btn-icon {
   color: var(--main-text-color);
 
-  &:hover,
-  &:focus,
-  &:active{
+  .mobile-menu__close-btn:hover &,
+  .mobile-menu__close-btn:focus &,
+  .mobile-menu__close-btn:active & {
     color: var(--accent-blue);
   }
 }
