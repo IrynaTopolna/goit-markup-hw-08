@@ -76,6 +76,7 @@
 
 .mob-social-list {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 48px;
 }
 
@@ -89,11 +90,10 @@
 }
 
 .mob-social-list__item:not(:last-child) {
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-  }
-
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
 
 // &::after {
 //   position: absolute;
