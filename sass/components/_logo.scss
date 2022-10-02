@@ -10,9 +10,21 @@
   color: var(--text-color-logo-header);
 }
 
+.logo-footer {
+  color: var(--accent-white);
+}
+
+.logo-bottom {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .logo__top {
     margin-right: 87px;
+  }
+
+  .logo-bottom{
+    margin-left: 115px;
   }
 }
 
@@ -25,12 +37,7 @@
   .logo__top {
     margin-right: 93px;
   }
+  .logo-bottom{
+    margin-left: 0;
+  }
 }
-
-// .logo-footer {
-//   color: var(--accent-white);
-// }
-
-// .logo-bottom {
-//   margin-bottom: 20px;
-// }

@@ -4,8 +4,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 528px;
-  height: 581px;
   padding: 40px;
 
   background-color: var(--accent-white);
@@ -28,10 +26,27 @@
 
 .close-icon {
   color: var(--text-color-logo-header);
-  transition: color var(--transition-dur-func);
+}
 
-  .modal-close-btn:hover &,
-  .modal-close-btn:focus & {
-    color: var(--accent-blue);
+@media screen and (max-width: 767px), screen and (min-width: 768px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+
+  .close-icon {
+    transition: color var(--transition-dur-func);
+
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+      color: var(--accent-blue);
+    }
   }
 }

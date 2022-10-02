@@ -25,7 +25,6 @@
 }
 
 .flex-team-element {
-  width: 450px;
   margin-bottom: 30px;
   background-color: var(--accent-white);
   border-radius: 0px 0px 4px 4px;
@@ -38,6 +37,10 @@
 }
 
 @media screen and (min-width: 768px) {
+.team-photo{
+  width: 100%;
+}
+
   .flex-team {
     display: flex;
     flex-wrap: wrap;
