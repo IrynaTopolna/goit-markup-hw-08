@@ -326,7 +326,13 @@ ul {
   color: var(--text-color-logo-header);
 }
 
-@media screen and (max-width: 767px), screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+  .modal {
+    max-width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 768px) {
   .modal {
     width: 450px;
     height: 609px;
