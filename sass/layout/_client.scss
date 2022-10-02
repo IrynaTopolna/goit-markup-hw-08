@@ -2,25 +2,61 @@
   display: flex;
   justify-content: center;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
 .client__link {
   @extend %align;
-  width: 170px;
   height: 92px;
   border: 1px solid var(--social-link-color);
   color: var(--social-link-color);
   border-radius: 4px;
   transition: color var(--transition-dur-func),
     border var(--transition-dur-func);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-blue);
-    border: 1px solid var(--accent-blue);
-  }
 }
 
 .client__icon {
   fill: currentColor;
+}
+
+@media screen and (max-width: 767px) {
+  .client {
+    flex-wrap: wrap;
+  }
+
+  .client__link {
+    width: 210px;
+
+    &:active {
+      color: var(--accent-blue);
+      border: 1px solid var(--accent-blue);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .client {
+    flex-wrap: wrap;
+  }
+
+  .client__link {
+    width: 226px;
+
+    &:active {
+      color: var(--accent-blue);
+      border: 1px solid var(--accent-blue);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client__link {
+    width: 170px;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-blue);
+      border: 1px solid var(--accent-blue);
+    }
+  }
 }
