@@ -10,20 +10,22 @@
   color: var(--text-color-logo-header);
 }
 
+@media screen and (min-width: 768px) {
+  .logo__top {
+    margin-right: 87px;
+  }
+}
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 
-// .logo {
-//   color: var(--accent-blue);
-//   font-family: var(--secondary-font);
-//   font-weight: 700;
-//   font-size: 26px;
-//   line-height: 1.19;
-// }
-
-// .logo__top {
-//   margin-right: 93px;
-// }
-
+  .logo__top {
+    margin-right: 93px;
+  }
+}
 
 // .logo-footer {
 //   color: var(--accent-white);
