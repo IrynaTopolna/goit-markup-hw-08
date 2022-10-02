@@ -326,13 +326,13 @@ ul {
   color: var(--text-color-logo-header);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .modal {
-    max-width: 450px;
-    height: 609px;
+    width: 100%;
+    min-height: 609px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .modal {
     width: 450px;
     height: 609px;
