@@ -192,14 +192,20 @@ ul {
   }
 }
 .section-title {
-  color: var(--main-text-color);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
-  margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 1.18;
+  margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+}
 .btn {
   color: var(--main-text-color);
   background-color: var(--accent-white);
@@ -820,43 +826,9 @@ ul {
   }
 }
 .team-content {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 24px;
   text-align: center;
-}
-
-.team-title {
-  color: var(--main-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  margin-bottom: 10px;
-}
-
-.team-paragraph {
-  color: var(--secondary-text-color);
-  font-size: 16px;
-  line-height: 1.19;
-  margin-bottom: 16px;
-}
-
-.section.team {
-  background-color: var(--bgc-team-btn-portfolio);
-  padding-top: 94px;
-}
-
-.flex-team {
-  display: flex;
-}
-
-.flex-team-element {
-  width: 270px;
-  margin-right: 30px;
-  background-color: var(--accent-white);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 4px 4px var(--box-shadow);
-}
-.flex-team-element:last-child {
-  margin-right: 0;
 }
 
 .client {
